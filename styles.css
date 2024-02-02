@@ -1,0 +1,27 @@
+.head{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:lightslategrey;
+    height: 100px;
+}
+.nav{
+    height: 50px;
+    background-color:lightsteelblue;
+    text-align:center;
+}
+.verticalCenter{
+    margin:0;
+    position:relative;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.aboutMe{
+    background-color: lightsteelblue;
+    width: 125px;
+    font-size: 20px;
+}
+.aboutMe:hover{
+    transition-duration: 0.4s;
+    background-color: white;
+}
