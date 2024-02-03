@@ -9,6 +9,9 @@
     background-color:lightsteelblue;
     text-align:center;
 }
+.main{
+    display:flex;
+}
 .verticalCenter{
     margin:0;
     position:relative;
@@ -24,4 +27,21 @@
 .aboutMe:hover{
     transition-duration: 0.4s;
     background-color: white;
+}
+img{
+    padding-left: 5rem;
+    padding-top: 5rem;
+    width: 20%;
+}
+.box{
+    border:1px solid black;
+    padding-left: 10px;
+    padding-right:10px;
+    background-color: white;
+}
+.box1{
+    margin-top:5rem;
+}
+.box2{
+    margin-top: 5rem;
 }
