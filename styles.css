@@ -1,17 +1,42 @@
-.head{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.header{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:lightslategrey;
+
     height: 100px;
+}
+.body{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(to bottom, blue, white);
+}
+.all{
+    height:100vh;
+    width:100vw;
+    background-image: linear-gradient(rgba(119, 136, 153, 1), rgba(119, 136, 153, 0));
 }
 .nav{
     height: 50px;
     background-color:lightsteelblue;
     text-align:center;
 }
-.main{
-    display:flex;
-}
+
 .verticalCenter{
     margin:0;
     position:relative;
@@ -19,30 +44,12 @@
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-.aboutMe{
+button{
     background-color: lightsteelblue;
     width: 125px;
     font-size: 20px;
 }
-.aboutMe:hover{
+button:hover{
     transition-duration: 0.4s;
     background-color: white;
-}
-img{
-    padding-left: 5rem;
-    padding-top: 5rem;
-    width: 20%;
-}
-.box{
-    border:1px solid black;
-    padding-left: 10px;
-    padding-right:10px;
-    background-color: white;
-}
-.box1{
-    margin-top:5rem;
-}
-.box2{
-    margin-top: 5rem;
-    width:110%;
 }
