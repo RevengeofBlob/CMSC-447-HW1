@@ -36,13 +36,27 @@ time, mark, audio, video {
     background-color:lightsteelblue;
     text-align:center;
 }
-
+.content{
+    display: flex;
+}
 .verticalCenter{
     margin:0;
     position:relative;
     top:50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+.boxes{
+    display:grid;
+}
+.box{
+    border: 1px solid black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+    background-color: white;
+    height: fit-content;
 }
 button{
     background-color: lightsteelblue;
@@ -52,4 +66,10 @@ button{
 button:hover{
     transition-duration: 0.4s;
     background-color: white;
+}
+img{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right:3rem;
+    width: 20rem;
 }
