@@ -39,6 +39,15 @@ time, mark, audio, video {
 .content{
     display: flex;
 }
+.main{
+    animation: fade 10s;
+    text-align: center;
+    margin-top: 20rem;
+}
+@keyframes fade {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
 .bottom{
     height: 3.125rem;
     margin-top: 20rem;
