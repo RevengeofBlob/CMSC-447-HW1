@@ -58,6 +58,7 @@ time, mark, audio, video {
     display:grid;
 }
 .box{
+    box-shadow: 4px 5px grey, 8px 10px lightgrey;
     border: 1px solid black;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -70,6 +71,10 @@ time, mark, audio, video {
     margin-left: 20rem;
     text-align: center;
 }
+.movies{
+    margin-left: 20rem;
+    text-align: center;
+}
 .me{
     padding-top: 5rem;
     padding-left: 5rem;
@@ -77,6 +82,8 @@ time, mark, audio, video {
     width: 20rem;
 }
 .symbol{
+    margin-top: 1.5rem;
+    margin-right: .5rem;
     width: 5rem;
     transition: transform 0.4s;
 }
